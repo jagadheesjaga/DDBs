@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:id="@+id/parent"
+            android:layout_width="1150dp"
+            android:layout_height="500dp"
+            android:layout_margin="@dimen/spacing_16"
+            android:layout_marginTop="25dp">
+
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/button15"
+                android:background="@color/goldenrod"
+                android:text="Incorrect stitches"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+
+                android:layout_alignParentStart="true"
+
+                android:layout_below="@+id/button13"
+                android:background="@color/common_action_bar_splitter"
+                android:text="Fabric oil stains"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/button7"
+                android:background="@color/orchid"
+
+                android:text="Center OFF"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/button6"
+                android:background="@color/turquoise"
+
+                android:text="Button Mistakes"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:background="@color/colorAccent"
+                android:text="Broken Stitches"
+
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_alignStart="@+id/button10"
+                android:layout_alignTop="@+id/button7"
+                android:background="@color/colorAccent"
+                android:text="Machine oil stains"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+
+                android:layout_above="@+id/button15"
+                android:layout_toEndOf="@+id/button5"
+                android:background="@color/turquoise"
+                android:text="Needle hole mark"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+
+                android:layout_above="@+id/button5"
+                android:layout_toEndOf="@+id/button5"
+                android:background="@color/orchid"
+                android:text="Open seam"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_alignTop="@+id/button5"
+                android:layout_toEndOf="@+id/button5"
+                android:background="@color/common_signin_btn_dark_text_disabled"
+
+                android:text="Printing mistakes"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_alignStart="@+id/button18"
+                android:layout_alignTop="@+id/button5"
+
+                android:layout_marginTop="-6dp"
+                android:background="@color/turquoise"
+                android:text="Unevent width"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_alignStart="@+id/button18"
+                android:layout_alignTop="@+id/button14"
+
+                android:background="@color/colorAccent"
+                android:text="uneven length"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_alignStart="@+id/button18"
+                android:layout_alignTop="@+id/button12"
+
+                android:background="@color/tomato"
+                android:text="uncut threads"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="245dp"
+                android:layout_height="141dp"
+
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/button11"
+                android:background="@color/springgreen"
+                android:text="YARN Mistakes"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_alignStart="@+id/button11"
+                android:layout_alignTop="@+id/button7"
+
+                android:background="@color/springgreen"
+                android:text="spi variation"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_alignTop="@+id/button5"
+
+                android:layout_toEndOf="@+id/button8"
+                android:background="@color/orchid"
+                android:text="Skip Stitches"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+
+                android:layout_above="@+id/button5"
+                android:layout_toEndOf="@+id/button8"
+                android:background="@color/turquoise"
+                android:text="Size inter change"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+
+                android:layout_above="@+id/button15"
+                android:layout_toEndOf="@+id/button8"
+                android:background="@color/colorAccent"
+                android:text="Shape out"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_alignTop="@+id/button7"
+                android:layout_toEndOf="@+id/button8"
+
+                android:background="@color/tomato"
+                android:text="shade variation"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/button23"
+                android:background="@color/yellow"
+                android:text="Slanterd /cross"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_above="@+id/button13"
+                android:layout_toEndOf="@+id/button11"
+                android:background="@color/yellow"
+                android:text="Wavyness"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/button11"
+                android:background="@color/springgreen"
+
+                android:text="UP/down"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/but"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/button8"
+                android:background="@color/springgreen"
+
+                android:text="puckering"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="245dp"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/button5"
+                android:layout_toRightOf="@+id/button6"
+                android:background="@color/tomato"
+                android:text="Label mistakes"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

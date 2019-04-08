@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name" translatable="false">DDBM Production</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="menu_refresh">Settings</string>
+
+
+    <string name="make_an_order">Make an order</string>
+    <string name="dialog_title">Select one defect</string>
+    <string name="ok_label">OK</string>
+    <string name="dismiss_label">Dismiss</string>
+    <string name="clear_all_label">Clear all</string>
+
+    <string name="create_account"><font color="#00ff00">text</font></string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="Spinner_title">Order</string>
+    <string name="order_no">Order No :-</string>
+    <string name="production">Production</string>
+    <string name="unit">Unit :-</string>
+    <string name="total_pro_day">Total Pro/Day</string>
+
+    <string-array name="Select_One_defect">
+    <item>	SPI VARIATION	</item>
+    <item>	SKIP STITCHES	</item>
+    <item>	WAVYNESS	</item>
+    <item>	PUCKERING	</item>
+    <item>	BROKEN STITCHES	</item>
+    <item>	OPEN SEAM	</item>
+    <item>	SHAPE OUT	</item>
+    <item>	UNEVEN LENGTH	</item>
+    <item>	UNEVEN WIDTH	</item>
+    <item>	INCORRECT STITCHES	</item>
+    <item>	LABEL MISTAKES	</item>
+    <item>	SIZE INTER CHANGE	</item>
+    <item>	SLANTERD / CROSS	</item>
+    <item>	BUTTON MISTAKES	</item>
+    <item>	UP / DOWN	</item>
+    <item>	CENTER OFF	</item>
+    <item>	UNCUT THREADS	</item>
+    <item>	SHADE VARIATION	</item>
+    <item>	NEEDLE HOLE MARK	</item>
+    <item>	FABRIC OIL STAINS	</item>
+    <item>	MACHINE OIL STAINS	</item>
+    <item>	PRINTING MISTAKES	</item>
+    <item>	YARN MISTAKES	</item>
+</string-array>
+</resources>

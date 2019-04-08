@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myapplication1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:textAlignment="center"
+        android:screenOrientation="landscape"
+        android:theme="@style/AppTheme">
+
+
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="landscape">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AndroidBarcodeQrExample" />
+
+        <activity
+            android:name=".Sewing"
+            android:label="Sewing"
+
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Main"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Rejection"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Ironing"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Packing"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Packinglogin"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Ironinglogin"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Linestatus"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Qualitystatus"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Ironingstatus"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Packingstatus"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Login"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Cutting"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Despatch"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Despatchlogin"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Cutlogin"
+            android:screenOrientation="landscape">
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+</application></manifest>
+

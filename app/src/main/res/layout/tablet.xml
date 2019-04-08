@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="1000dp"
+    android:id="@+id/parent"
+    android:layout_margin="@dimen/spacing_16"
+    android:layout_marginTop="25dp">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="75dp"
+        android:layout_height="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/ve"
+        android:clickable="false"
+        android:gravity="left"
+        android:inputType="textMultiLine"
+        android:scrollIndicators="top|left|bottom|right"
+        android:textAlignment="center"
+        android:textColor="#100101" />
+
+
+    <Spinner
+        android:id="@+id/spinner_unit"
+        style="@style/spinner_style"
+        android:layout_width="246dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/button_layout"
+        android:layout_toEndOf="@+id/textView6"
+        android:layout_toRightOf="@+id/textView6" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/CommonTextViewPrimaryStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinner_unit"
+                android:layout_marginTop="15px"
+                android:text="Line            :-"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="30px" />
+
+            <TextView
+                android:id="@+id/Style"
+                style="@style/CommonTextViewPrimaryStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinner_line"
+                android:layout_marginTop="15px"
+                android:text="Buyer         :-"
+                android:textSize="30px" />
+
+
+    <Spinner
+        android:id="@+id/spinner_buyer"
+        style="@style/spinner_style"
+        android:layout_width="246dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/spinner_line"
+        android:layout_alignStart="@+id/spinner_line"
+        android:layout_alignTop="@+id/Style"
+        android:layout_below="@+id/spinner_line"
+        android:layout_marginTop="15px" />
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/CommonTextViewPrimaryStyle"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinner_buyer"
+                android:layout_marginTop="15px"
+                android:text="Order No   :-   "
+                android:textSize="30px" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/CommonTextViewPrimaryStyle"
+        android:layout_width="113dp"
+        android:layout_height="41dp"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_alignTop="@+id/spinner_buyer"
+        android:text="Defect  "
+        android:textSize="30px" />
+
+            <Spinner
+                android:id="@+id/spinner_sizelo"
+                style="@style/spinner_style"
+                android:layout_width="246dp"
+                android:layout_height="43dp"
+
+                android:layout_alignStart="@+id/spinner_gar"
+                android:layout_alignTop="@+id/textView"
+                android:spinnerMode="dropdown" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/CommonTextViewPrimaryStyle"
+        android:layout_width="113dp"
+        android:layout_height="45dp"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_alignTop="@+id/textView"
+        android:text="Defect Loc"
+        android:textSize="30px" />
+
+    <Spinner
+        android:id="@+id/spinner_gar"
+        style="@style/spinner_style"
+        android:layout_width="246dp"
+        android:layout_height="39dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView9" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/CommonTextViewPrimaryStyle"
+        android:layout_width="115dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Garment"
+        android:textSize="30px" />
+
+            <Spinner
+                android:id="@+id/spinner_size"
+                style="@style/spinner_style"
+                android:layout_width="246dp"
+                android:layout_height="43dp"
+
+                android:layout_above="@+id/prt"
+                android:layout_alignStart="@+id/spinner_sizelo"
+                android:layout_marginBottom="-15px" />
+
+            <Spinner
+                android:id="@+id/spinner_size2"
+                style="@style/spinner_style"
+                android:layout_width="246dp"
+                android:layout_height="43dp"
+
+                android:layout_alignLeft="@+id/spinner_sizelo"
+                android:layout_alignStart="@+id/spinner_sizelo"
+                android:layout_alignTop="@+id/textView7" />
+
+            <RelativeLayout
+                android:id="@+id/button_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+            </RelativeLayout>
+
+
+    <Spinner
+        android:id="@+id/spinner_line"
+        style="@style/spinner_style"
+        android:layout_width="246dp"
+
+        android:layout_height="42dp"
+        android:layout_alignLeft="@+id/spinner_unit"
+        android:layout_alignStart="@+id/spinner_unit"
+        android:layout_below="@+id/spinner_unit"
+        android:layout_marginTop="15px" />
+
+            <Spinner
+                android:id="@+id/spinner_color"
+                style="@style/spinner_style"
+                android:layout_width="246dp"
+                android:layout_height="43dp"
+
+                android:layout_alignLeft="@+id/spinner_Order_No"
+                android:layout_alignStart="@+id/spinner_Order_No"
+                android:layout_alignTop="@+id/prt"
+                android:layout_below="@+id/spinner_Order_No"
+                android:layout_marginTop="15px" />
+
+            <Spinner
+                android:id="@+id/spinner_style"
+                style="@style/spinner_style"
+                android:layout_width="246dp"
+                android:layout_height="43dp"
+                android:layout_alignStart="@+id/spinner_unit"
+                android:layout_alignTop="@+id/ncolor" />
+
+
+            <Spinner
+                android:id="@+id/spinner_name"
+                style="@style/spinner_style"
+                android:layout_width="246dp"
+                android:layout_height="43dp"
+                android:layout_alignStart="@+id/spinner_unit"
+                android:layout_below="@+id/spinner_style"
+                android:layout_marginTop="10pt" />
+
+            <TextView
+                android:id="@+id/prt"
+                style="@style/CommonTextViewPrimaryStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinner_Order_No"
+                android:layout_marginTop="15px"
+                android:text="Color          :-"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="30px" />
+
+            <TextView
+                android:id="@+id/ncolor"
+                style="@style/CommonTextViewPrimaryStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinner_color"
+                android:layout_marginTop="15px"
+                android:text="Style           :-"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="30px" />
+
+            <TextView
+                android:id="@+id/nsize2"
+                style="@style/CommonTextViewPrimaryStyle"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/spinner_name"
+                android:text="Operator Name         :-"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="30px" />
+
+            <Spinner
+                android:id="@+id/spinner_Order_No"
+                style="@style/spinner_style"
+                android:layout_width="246dp"
+
+                android:layout_height="43dp"
+                android:layout_alignLeft="@+id/spinner_buyer"
+                android:layout_alignStart="@+id/spinner_buyer"
+                android:layout_alignTop="@+id/textView6"
+                android:layout_below="@+id/spinner_buyer"
+                android:layout_marginTop="15px" />
+
+            <TextView
+                android:id="@+id/textView_size"
+                style="@style/CommonTextViewSecondaryStyle"
+                android:layout_above="@+id/textView_line"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Unit            :-"
+                android:textColor="@color/white"
+                android:textSize="30px" />
+
+    <Button
+        android:id="@+id/btnpass"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/spinner_sizelo"
+        android:layout_below="@+id/spinner_style"
+        android:background="@drawable/button"
+        android:text="Pass"
+        android:textColor="@color/white"
+        android:textSize="55px"
+        android:textStyle="italic" />
+
+
+    <Button
+
+        android:id="@+id/btnFail"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/spinner_sizelo"
+        android:layout_alignTop="@+id/spinner_color"
+        android:background="@drawable/button2"
+        android:text="Fail"
+        android:textColor="@color/white"
+        android:textSize="55px"
+        android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/totaldphr"
+                android:layout_width="150dp"
+                android:layout_height="39dp"
+                android:layout_alignStart="@+id/prophr"
+                android:layout_below="@+id/textView13"
+                android:background="@drawable/edittext"
+                android:inputType="none"
+                android:scrollIndicators="top|left|bottom|right"
+
+                android:textAlignment="center"
+                android:textColor="#100101" />
+
+    <EditText
+        android:id="@+id/prophr"
+        android:layout_width="151dp"
+        android:layout_height="42dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/spinner_name"
+        android:background="@drawable/edittext"
+        android:inputType="none"
+        android:scrollIndicators="top|left|bottom|right"
+        android:textAlignment="center"
+        android:textColor="#100101" />
+
+            <EditText
+                android:id="@+id/Bulk"
+                android:layout_width="62dp"
+                android:layout_height="82dp"
+
+                android:layout_alignParentBottom="true"
+                android:layout_toStartOf="@+id/btnpass"
+                android:background="@drawable/edittext"
+                android:focusableInTouchMode="true"
+                android:hint="BULK"
+                android:inputType="number"
+                android:scrollIndicators="top|left|bottom|right"
+                android:textColor="#100101" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="146dp"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/prophr"
+        android:layout_marginTop="260dp"
+        android:text="Total defect/day"
+        android:textSize="20px" />
+
+    <TextView
+        android:id="@+id/rewor"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/spinner_style"
+        android:text="Total Pro/Day"
+        android:textSize="20px" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_below="@+id/textView6"
+        android:text="Size  :-"
+        android:textColor="@color/white"
+        android:textSize="30px" />
+
+    <TextView
+        android:id="@+id/Sec"
+        android:layout_width="148dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/spinner_buyer"
+                android:background="@drawable/defect_button"
+                android:text="Select defect"
+                android:textColor="@color/ve" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/spinner_size"
+        android:background="@drawable/rework"
+        android:text="Rework"
+        android:textColor="@color/ve" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="88dp"
+        android:layout_height="63dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/spinner_unit"
+        android:layout_marginEnd="24dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textSize="40dp" />
+
+
+        </RelativeLayout>
+   
+
+
+

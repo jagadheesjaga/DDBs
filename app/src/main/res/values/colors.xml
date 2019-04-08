@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c054e4</color>
+    <color name="colorPrimaryDark">#7c2b9e</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue">#0096aa</color>
+    <color name="white">#211f1f</color>
+    <color name="accent">#828283</color>
+
+    <color name="primary_text">#0e0e0e</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#232020</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="gray">#c0c0c0</color>
+
+    <color name="green">#077101</color>
+    <color name="red">#e20202</color>
+    <color name="ve">#ffffff</color>
+
+
+    <color name="yellow">#4801ef</color>
+    <color name="tomato">#f1e507</color>
+    <color name="palegreen">#98FB98</color>
+    <color name="turquoise">#40E0D0</color>
+    <color name="orchid">#DA70D6</color>
+    <color name="goldenrod">#DAA520</color>
+    <color name="springgreen">#00FF7F</color>
+    <color name="Back">#D3D3D3</color>
+
+</resources>
